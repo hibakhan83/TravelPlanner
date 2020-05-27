@@ -144,7 +144,7 @@ public class CS_1301 {
 				else if(city.equalsIgnoreCase("Indianapolis")) {
 					double flight_base = 201;
 					double hotel_base = 94;
-					System.out.println("Here are some points of interests you may want to visit in " + city + ":\n" + " > Childrenâ€™s Museum of Indianapolis\n" + 
+					System.out.println("Here are some points of interests you may want to visit in " + city + ":\n" + " > Children’s Museum of Indianapolis\n" + 
 					"https://www.childrensmuseum.org/ \n" + " > Indianapolis Motor Speedway Museum\n" + "http://www.indyracingmuseum.org/ \n");
 					cost += Departure(flight_base);
 					cost += Hotel(hotel_base);	
